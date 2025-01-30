@@ -9,12 +9,28 @@ plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
     id 'java'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+
+shadowJar {
+    archiveBaseName.set('impact-cli')
+    archiveVersion.set('1.0')
 }
 
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
 }
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'org.example.Main'
+        )
+    }
+}
+
 
 dependencies {
     implementation 'info.picocli:picocli:4.7.4'

@@ -26,8 +26,8 @@ public class ProjectsCommand implements Runnable {
     static class Pywal implements Runnable {
         public void run() {
             System.out.println("pywal-spicetify: ");
-            System.out.println("This is a CLI tool that allows users to apply pywal colors to spicetify");
-            System.out.println("in Linux rices.");
+            System.out
+                    .println("This is a CLI tool that allows users to apply pywal colors to spicetify in Linux rices.");
             System.out.println("https://github.com/jhideki/pywal-spicetify");
         }
     }
@@ -36,8 +36,8 @@ public class ProjectsCommand implements Runnable {
     static class Discard implements Runnable {
         public void run() {
             System.out.println("Discard:");
-            System.out.println("A messaging app that replicates Discord's");
-            System.out.println("features but operates entirely on a peer-to-peer (P2P) network.");
+            System.out.println(
+                    "A application that replicates Discord's features but operates entirely on a peer-to-peer (P2P) network.");
             System.out.println("All data is transferred directly between users and stored locally on their devices.");
             System.out.println("https://github.com/jhideki/discard");
         }

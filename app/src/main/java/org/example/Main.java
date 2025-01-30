@@ -16,10 +16,14 @@ public class Main implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("Welcome to my Picolo CLI");
-        System.out.println("Available arguments following arguments");
+        System.out.println("Welcome to my custom CLI for impact.com!");
+        System.out.println("---------------------------------------");
+        System.out.println("Available arguments:");
         System.out.println("projects");
         System.out.println("about-me");
         System.out.println("music");
+        System.out.println("");
+        System.out.println("Example usage:");
+        System.out.println("--args='music'");
     }
 }
