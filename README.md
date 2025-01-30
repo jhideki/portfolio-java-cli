@@ -39,7 +39,7 @@ gradle run --args='<command> [options]'
 Run jar
 
 ```bash
-java -jar app/build/libs/impact-cli-1.0.all.jar '<command> [options]'
+java -jar app/build/libs/impact-cli-1.0.all.jar <command> [options]
 ```
 
 Example usage
